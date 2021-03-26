@@ -1,0 +1,88 @@
+article.menu {
+    background-color: var(--champagne);
+}
+
+.menu__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__title {
+    color: var(--black-coffee);
+    font-size: 2.2rem;
+    font-family: 'QuickSand';
+    margin: 40px auto;
+    font-weight: bold;
+}
+
+.menu__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu__image {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 0 10px var(--eerie-black);
+}
+
+.menu__image img {
+    width: 100%;
+}
+
+.menu__image.coffee {
+    background-image: url("../images/images-card-menu/coffees.png");    
+}
+
+.menu__image.no-coffee {
+    background-image: url("../images/images-card-menu/no-coffees.png");    
+}
+
+.menu__image.desserts {
+    background-image: url("../images/images-card-menu/desserts.png");    
+    margin-bottom: 100px;
+}
+
+.menu__image.pancakes {
+    background-image: url("../images/images-card-menu/pancakes-sandwiches.png");
+}
+
+/* change speed control */
+
+.menu__image {
+    transition: .5s ease-in-out;
+}
+
+/* changes background when focused */
+
+.menu__image.coffee:hover {
+    background-image: url("../images/images-card-menu/menu-coffees.png");
+}
+
+.menu__image.no-coffee:hover {
+    background-image: url("../images/images-card-menu/menu-no-coffees.png");
+}
+
+.menu__image.desserts:hover {
+    background-image: url("../images/images-card-menu/menu-desserts.png");
+}
+
+.menu__image.pancakes:hover {
+    background-image: url("../images/images-card-menu/menu-pancakes-sandwichs.png");
+}
+
+/* change speed control, increasing window size */
+
+.menu__image:hover {
+    width: 500px;
+    height: 500px;
+    transition: .5s ease-in-out;
+}

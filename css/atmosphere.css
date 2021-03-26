@@ -1,0 +1,100 @@
+:root {
+    --white: #fdfdfbff;
+    --champagne: #ede0c9ff;
+    --black-coffee: #3b2f2fff;
+    --raisin-black: #292323ff;
+    --eerie-black: #171717ff;
+
+    --black: #000;
+    --white: #fff;
+}
+
+.image__environment__parallax {
+    background-image: url("../images/coffee-shop-environment.jpg");
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../images/people-environmente-coffee-shop.jpg");
+
+}
+
+.image3 {
+    background-image: url("../images/cafe-light-signal-cut.jpg");
+    min-height: 50vh;
+}
+
+.image3 p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50vh;
+    color: var(--champagne);
+}
+
+/* Container Text Atmosphere */
+
+.container__text__environment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--champagne);
+    margin-top: 50px;
+}
+
+h1.text__environment__title {
+    color: var(--raisin-black);
+    font-size: 2.2rem;
+    font-family: 'QuickSand';
+    text-align: center;
+    margin: 50px auto;
+    font-weight: normal;
+}
+
+.icon__quote {
+    color: var(--black-coffee);
+    font-size: 3rem;
+    display: block;
+    text-align: center;
+}
+
+.text__environment {
+    color: var(--black-coffee);
+    font-size: 1.8rem;
+    font-family: 'QuickSand';
+    width: 60%;
+    margin: 50px auto;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/*  Cozy, Elegance, Experience */
+
+.gradient__divider {
+    height: 40vh;
+    background: rgb(237, 224, 201);
+    background: radial-gradient(circle, rgba(237, 224, 201, 1) 0%, rgba(190, 179, 161, 1) 50%, rgba(142, 134, 121, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon__gradient__divider {
+    font-size: 3em;
+    line-height: 40vh;
+}
+
+/* text of gradient divider */
+
+.gradient__divider p {
+    font-size: 1.7rem;
+    margin-right: 15px;
+    font-family: 'QuickSand';
+    text-shadow: 0px 1px 2px var(--raisin-black);
+}

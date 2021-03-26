@@ -1,0 +1,119 @@
+header.container {
+    background-image: url("../images/decorated-coffee-cup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    perspective: 1px;
+    box-shadow: 0 5px 5px var(--eerie-black);
+}
+
+.header__content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__top {
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    top: 0;
+}
+
+div#title {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.icon__title {
+    margin-left: 0px;
+    font-size: 25px;
+
+}
+
+.gg-coffee.icon__title {
+    margin-left: 17px;
+    top: -4px;
+}
+
+.icon__title:hover {
+    transform: rotateX(-1);
+}
+
+div#title h1 {
+    font-size: 2rem;
+}
+
+div#header__menu {
+    display: flex;
+    margin-right: 20px;
+}
+
+div#header__menu h2 {
+    border-radius: 2px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+div#header__menu h2:hover {
+    transition: .3s;
+    color: var(--champagne);
+    text-shadow: 0 0 10px #E0CAA3;
+
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+div.empty__div {
+    display: flex;
+}
+
+div.btn button {
+    border: 2px solid var(--white);
+    padding: 10px;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: none;
+    flex: 1;
+    animation: blink .5s ease-in-out 1s infinite alternate;
+    cursor: pointer;
+}
+
+div.icons__header__container {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: -140px;
+}
+
+.icon__social-media {
+    font-size: 1.7rem;
+    margin-right: 30px;
+}
+
+div.icons__header__container a {
+    color: inherit;
+}
+
+div.icons__header__container i:hover {
+    transition: .3s;
+    color: var(--champagne);
+    text-shadow: 0 0 10px #E0CAA3;
+}
