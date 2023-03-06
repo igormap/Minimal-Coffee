@@ -31,7 +31,7 @@ yarn start
 
 * Twitter: [@cowtholic](https://twitter.com/cowtholic)
 * Github: [@igormap](https://github.com/igormap)
-* LinkedIn: [@igor-martins-9743461a0](https://linkedin.com/in/igor-martins-9743461a0)
+* LinkedIn: [@igormap](https://www.linkedin.com/in/igormap/)
 
 ## Show your support
 
